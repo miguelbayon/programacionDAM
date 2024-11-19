@@ -13,13 +13,13 @@ public class Actividad3497Test
         ArrayList<String> resultadoEsperado = new ArrayList<>(Arrays.asList("Tungjatjeta"));
         ArrayList<String> resultadoObtenido = null;
         resultadoObtenido = objetoBase.devolverPalabraMasLarga(origen);
-        assertArrayEquals(resultadoObtenido.toArray(), resultadoEsperado.toArray());
+        assertArrayEquals( resultadoEsperado.toArray(), resultadoObtenido.toArray());
 
         ArrayList<String> origen2 = new ArrayList<>(Arrays.asList("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Noviembre"));
         ArrayList<String> resultadoEsperado2 = new ArrayList<>(Arrays.asList("Noviembre"));
         ArrayList<String> resultadoObtenido2 = null;
         resultadoObtenido2 = objetoBase.devolverPalabraMasLarga(origen2);
-        assertArrayEquals(resultadoObtenido2.toArray(), resultadoEsperado2.toArray());
+        assertArrayEquals(resultadoEsperado2.toArray(), resultadoObtenido2.toArray());
     }
 
     @Test
@@ -30,7 +30,7 @@ public class Actividad3497Test
         ArrayList<String> resultadoEsperado = new ArrayList<>();
         ArrayList<String> resultadoObtenido = null;
         resultadoObtenido = objetoBase.devolverPalabraMasLarga(origen);
-        assertArrayEquals(resultadoObtenido.toArray(), resultadoEsperado.toArray());
+        assertArrayEquals(resultadoEsperado.toArray(), resultadoObtenido.toArray());
     }
 
     @Test
@@ -41,12 +41,12 @@ public class Actividad3497Test
         ArrayList<String> resultadoEsperado = new ArrayList<>(Arrays.asList("Adios", "Hello", "Gauon"));
         ArrayList<String> resultadoObtenido = null;
         resultadoObtenido = objetoBase.devolverPalabraMasLarga(origen);
-        assertArrayEquals(resultadoObtenido.toArray(), resultadoEsperado.toArray());
+        assertArrayEquals(resultadoEsperado.toArray(), resultadoObtenido.toArray());
 
         ArrayList<String> origen2 = new ArrayList<>(Arrays.asList("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Noviembre", "Diciembre"));
         ArrayList<String> resultadoEsperado2 = new ArrayList<>(Arrays.asList("Noviembre", "Diciembre"));
         ArrayList<String> resultadoObtenido2 = null;
         resultadoObtenido2 = objetoBase.devolverPalabraMasLarga(origen2);
-        assertArrayEquals(resultadoObtenido2.toArray(), resultadoEsperado2.toArray());
+        assertArrayEquals(resultadoEsperado2.toArray(), resultadoObtenido2.toArray());
     }
 }
